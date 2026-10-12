@@ -37,9 +37,10 @@ td,th{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:to
 <li>Your alarms: times, labels, repeat days, chosen ringtone, roast level and mission settings.</li>
 <li>Your app settings and your wake-up history and score shown in the Analysis screen.</li>
 <li>Photos taken for the photo mission (for example a reference photo of a place such as your bathroom sink).</li>
+<li>Sounds you import yourself (My Sounds).</li>
 <li>Your unlock state for features such as Roast Nuclear mode or extra mission slots.</li>
 </ul>
-<p>Android's backup feature may copy some of this data to your Google account if you have Android backup turned on in your phone settings. We exclude photos from backup.</p>
+<p>Android's backup feature may copy some of this data to your Google account if you have Android backup turned on in your phone settings. We exclude photos and your imported sounds from backup.</p>
 
 <h2>3. Permissions and why we ask</h2>
 <table>
@@ -48,6 +49,8 @@ td,th{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:to
 <tr><td>Exact alarms and full-screen alerts</td><td>To ring at the exact time and show the ring screen over your lock screen.</td></tr>
 <tr><td>Camera</td><td>For the photo mission and the QR/barcode mission. Images are processed on your device.</td></tr>
 <tr><td>Physical activity and motion sensors</td><td>To count steps and detect shake or squat movements in missions. Sensor data is not saved or sent anywhere.</td></tr>
+<tr><td>Display over other apps</td><td>To show the ring screen and open the app straight after an alarm, including over the lock screen.</td></tr>
+<tr><td>Do Not Disturb access</td><td>So that alarms can still ring when Do Not Disturb is on. We do not read or change your notifications.</td></tr>
 <tr><td>Vibrate, wake lock, start on boot</td><td>To vibrate, keep the phone awake while ringing, and set your alarms again after a restart.</td></tr>
 <tr><td>Internet and network state</td><td>Only used by the advertising service (section 4).</td></tr>
 </table>
